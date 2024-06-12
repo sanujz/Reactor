@@ -9,8 +9,10 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', (message) => {
-  if (message.content.toLowerCase().includes('<@1243622619543244820>')) {
-    message.react('❤️');
+  if (message.content.toLowerCase().includes('<@1157648170159976479>')) {
+    message.react('🇲');
+    message.react('🇦');
+    message.react('🇭');
   }
 });
 
