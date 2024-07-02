@@ -16,4 +16,13 @@ client.on('messageCreate', (message) => {
   }
 });
 
+client.on('messageCreate', (message) => {
+  if (message.content.toLowerCase().includes('<@707111534689648760>')) {
+    message.react('🇵');
+    message.react('🇷');
+    message.react('🇦');
+    message.react('🇹');
+  }
+});
+
 client.login(process.env.token);
