@@ -52,12 +52,7 @@ client.on('messageCreate', (message) => {
 
 client.on('messageCreate', (message) => {
   if (message.content.toLowerCase().includes('<@1103086081689256009>')) {
-    message.react('🇸');
-    message.react('🇭');
-    message.react('🇦');
-    message.react('🇷');
-    message.react('🇰');
-    message.react('🇾');
+    message.react('🦈');
   }
 });
 
