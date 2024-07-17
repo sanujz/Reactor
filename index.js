@@ -26,14 +26,6 @@ client.on('messageCreate', (message) => {
 });
 
 client.on('messageCreate', (message) => {
-  if (message.content.toLowerCase().includes('<@1123884605691400193>')) {
-    message.react('🇲');
-    message.react('🇦');
-    message.react('🇭');
-  }
-});
-
-client.on('messageCreate', (message) => {
   if (message.content.toLowerCase().includes('<@1233359097357799558>')) {
     message.react('🇸');
     message.react('🇰');
@@ -56,5 +48,20 @@ client.on('messageCreate', (message) => {
   }
 });
 
+client.on('messageCreate', (message) => {
+  if (message.content.toLowerCase().includes('<@1254990095195574273>')) {
+    message.react('6️⃣');
+    message.react('🇮');
+    message.react('🇽');
+  }
+});
+
+client.on('messageCreate', (message) => {
+  if (message.content.toLowerCase().includes('<@1155500922361884733>')) {
+    message.react('🇩🇪');
+    message.react('🍻');
+    message.react('🧌');
+  }
+});
 
 client.login(process.env.token);
