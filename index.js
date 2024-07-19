@@ -64,4 +64,12 @@ client.on('messageCreate', (message) => {
   }
 });
 
+client.on('messageCreate', (message) => {
+  if (message.content.toLowerCase().includes('<@1241379023976923171>')) {
+    message.react('🇨');
+    message.react('🇷');
+    message.react('7️⃣');
+  }
+});
+
 client.login(process.env.token);
